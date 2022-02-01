@@ -7,7 +7,7 @@ const typeDefs = gql `
         me: User
     }
 
-    typer User {
+    type User {
         _id: ID
         username: String
         email: String
@@ -33,7 +33,7 @@ const typeDefs = gql `
         link: String
     }
 
-    types Auth {
+    type Auth {
         token: ID!
         user: User
     }
