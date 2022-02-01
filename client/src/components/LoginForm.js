@@ -1,7 +1,7 @@
 // see SignupForm.js for comments
 import React, { useState } from 'react';
-// import user mutation
-import { userMutation } from '@apollo/client';
+// import use mutation
+import { useMutation } from '@apollo/client';
 import { Form, Button, Alert } from 'react-bootstrap';
 // replaced login() with LOGIN_USER mutation functionality
 import { LOGIN_USER } from '../utils/mutations';
