@@ -28,8 +28,9 @@ const LoginForm = () => {
       event.stopPropagation();
     }
 
+    // use try/catch to handle errors
     try {
-      const response = await login({
+      const { data } = await login({
         variables: { ...formState },
       });
 
