@@ -31,12 +31,12 @@ const LoginForm = () => {
     // use try/catch to handle errors
     try {
       const { data } = await login({
-        variables: { ...formState },
+        variables: { ...userFormData },
       });
 
       Auth.login(data.login.token);
-    } catch (e) {
-      console.error(e);
+    } catch (err) {
+      console.error(error);
     }
 
     setUserFormData({
