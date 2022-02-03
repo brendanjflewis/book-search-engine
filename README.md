@@ -13,7 +13,7 @@ This project lets the user create an account, search for books, and save their f
 ## Installation
 
 * Install dependencies with npm install or npm i
-* Type npm start in the terminal to run the server
+* Type npm run develop in the terminal to run the server
 * Use 'localhost:3001' in your browser to view the application
 
 You can also use the application on [Heroku](https://book-search-engine-bl.herokuapp.com/)
